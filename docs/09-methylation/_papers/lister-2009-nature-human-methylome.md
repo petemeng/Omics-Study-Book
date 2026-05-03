@@ -27,6 +27,11 @@
 
 ## 5. 关键 Figure 拆解
 
+<div class="figure-reading" markdown="1">
+<div class="figure-reading-title">真实 Figure 入口 · 原文 Figures</div>
+这篇 <em>Nature</em> 论文建议打开 <a href="https://www.nature.com/articles/nature08514/figures/1">Figure 1</a>、<a href="https://www.nature.com/articles/nature08514/figures/2">Figure 2</a> 和 <a href="https://www.nature.com/articles/nature08514/figures/4">Figure 4</a>。读图顺序是：先看 hESC 和 fibroblast 的全局 methylome landscape，再按 promoter/gene body/repeat 等区域分层，最后看 non-CG methylation 为什么是 pluripotent state 的重要信号，而不是普通 CpG silencing 的延伸。
+</div>
+
 ### Figure 1：base-resolution methylome map
 
 这张图建立全基因组单碱基分辨率。生物学声明是 hESC 和 fibroblast 的 methylome landscape 系统不同。

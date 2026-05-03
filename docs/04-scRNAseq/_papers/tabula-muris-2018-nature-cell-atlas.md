@@ -38,6 +38,11 @@ flowchart LR
 
 ## 5. 关键 Figure 拆解
 
+<figure class="source-figure" markdown="1">
+  <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-018-0590-4/MediaObjects/41586_2018_590_Fig1_HTML.png" alt="Tabula Muris Figure 1 overview of mouse single-cell atlas">
+  <figcaption><strong>真实结果图 · Figure 1。</strong> 这张图是 Tabula Muris 的 atlas 地图：器官覆盖、两种平台、细胞数和总体细胞类型结构。读图时先看“取样宇宙”有多大，再看 atlas 结论能推广到哪里。来源：Tabula Muris Consortium 2018, <em>Nature</em>, <a href="https://doi.org/10.1038/s41586-018-0590-4">DOI</a>, Creative Commons Attribution 4.0 International License。</figcaption>
+</figure>
+
 ### Figure 1：全项目设计和细胞图谱
 
 这张图说明样本、器官、平台和总体细胞数。它在统计上定义了 atlas 的覆盖范围。生物学声明是：多个器官中的主要细胞类型可以被系统 catalog。

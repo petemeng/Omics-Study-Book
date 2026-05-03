@@ -423,6 +423,27 @@
   color: var(--color-accent);
 }
 
+.md-typeset .figure-reading {
+  margin: 1.2rem 0 1.5rem;
+  padding: 1rem 1.1rem;
+  background: #f7fbfb;
+  border-left: 4px solid var(--color-accent);
+  border-radius: 0 6px 6px 0;
+  font-family: var(--font-sans);
+  font-size: 0.69rem;
+  line-height: 1.6;
+}
+
+.md-typeset .figure-reading-title {
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.35rem;
+}
+
+.md-typeset .figure-reading a {
+  color: var(--color-accent);
+}
+
 .md-typeset .questions-list {
   list-style: none;
   padding: 0;

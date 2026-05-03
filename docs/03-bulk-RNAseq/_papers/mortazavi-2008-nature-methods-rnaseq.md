@@ -45,6 +45,11 @@ RPKM 是这篇最有历史影响的公式。它解决了“长基因天然有更
 
 ## 5. 关键 Figure 拆解
 
+<div class="figure-reading" markdown="1">
+<div class="figure-reading-title">真实 Figure 入口 · 原文 Figures</div>
+这篇属于 <em>Nature Methods</em>，这里先不直接复制图片。读者应打开 <a href="https://www.nature.com/articles/nmeth.1226/figures/1">Figure 1</a> 和 <a href="https://www.nature.com/articles/nmeth.1226/figures/2">Figure 2</a> 对照阅读。重点看：Figure 1 如何把 reads coverage 放回 exon/junction 坐标；Figure 2 如何用已知浓度 RNA standards 证明 RPKM 与输入分子量近似线性。读图时不要只看“测到了很多 reads”，而要看 reads 如何变成结构证据和定量证据。
+</div>
+
 ### Figure 1：reads 覆盖如何变成转录本证据
 
 这张图的统计动作不是检验，而是把 reads 映射到基因组坐标，展示 reads coverage 与 exon annotation 的一致性。生物学声明是：RNA-seq 不只是测一个 gene-level abundance，它还保留转录本结构信息。能看到 exon coverage，也能看到 junction-spanning reads 支持剪接。

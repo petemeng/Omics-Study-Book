@@ -35,6 +35,11 @@ flowchart LR
 
 ## 5. 关键 Figure 拆解
 
+<div class="figure-reading" markdown="1">
+<div class="figure-reading-title">真实 Figure 入口 · 原文 Figures</div>
+这篇 <em>Science</em> 论文建议打开 <a href="https://www.science.org/doi/10.1126/science.aau5324">原文 Figures</a>，重点看 Figure 1、Figure 2/3 和 Figure 5/6。读图时先确认 scRNA-seq taxonomy 如何定义细胞类型，再看 MERFISH 是否把这些类型放回非随机空间位置，最后看功能刺激或 activity marker 是否只支持“关联”，还是足以提出功能回路假设。
+</div>
+
 ### Figure 1：scRNA-seq taxonomy
 
 这张图定义细胞类型参考。它的统计动作是聚类和 marker identification。生物学声明是 preoptic region 包含多个分子定义的神经元和非神经细胞类型。

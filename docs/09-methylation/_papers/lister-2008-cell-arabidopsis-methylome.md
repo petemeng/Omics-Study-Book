@@ -45,6 +45,11 @@ $$
 
 ## 5. 关键 Figure 拆解
 
+<div class="figure-reading" markdown="1">
+<div class="figure-reading-title">真实 Figure 入口 · 原文 Figures</div>
+这篇 <em>Cell</em> 植物 methylome 论文建议打开 <a href="https://www.cell.com/cell/fulltext/S0092-8674(08)00346-2">原文页面</a> 的 Figure 1、Figure 2/3 和 Figure 4/5。读图时一定按 CG、CHG、CHH 分开看：Figure 1 看三种 context 在 gene、TE、repeat 上的分布；Figure 2/3 看 24nt siRNA 与 CHH/RdDM 的空间共定位；Figure 4/5 再把 methylation 和表达/转座子沉默连接起来。
+</div>
+
 ### Figure 1：全基因组 methylation landscape
 
 这张图展示 CG/CHG/CHH 在基因、转座子和重复区域的分布。生物学声明是植物 methylome 具有 context-specific architecture。

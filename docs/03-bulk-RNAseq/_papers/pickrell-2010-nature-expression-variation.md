@@ -47,6 +47,11 @@ $$
 
 ## 5. 关键 Figure 拆解
 
+<div class="figure-reading" markdown="1">
+<div class="figure-reading-title">真实 Figure 入口 · 原文 Figures</div>
+这篇 <em>Nature</em> 文章的图建议直接看官方页面：<a href="https://www.nature.com/articles/nature08872/figures/1">Figure 1</a>、<a href="https://www.nature.com/articles/nature08872/figures/2">Figure 2</a> 和 <a href="https://www.nature.com/articles/nature08872/figures/4">Figure 4</a>。读图顺序是：先确认 RNA-seq expression phenotype 可靠，再看 genotype-expression association，最后看 ASE/剪接如何把 eQTL 从“关联”推进到 cis 调控和 RNA processing 机制。
+</div>
+
 ### Figure 1：RNA-seq 数据质量和表达测量
 
 这张图主要建立测量可信度：reads 覆盖基因、表达分布和样本间可比性。统计上是在证明 RNA-seq expression phenotype 足够稳定，可以进入遗传关联模型。

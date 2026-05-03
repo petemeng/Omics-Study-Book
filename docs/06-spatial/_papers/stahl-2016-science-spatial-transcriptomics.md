@@ -38,6 +38,11 @@ flowchart LR
 
 ## 5. 关键 Figure 拆解
 
+<div class="figure-reading" markdown="1">
+<div class="figure-reading-title">真实 Figure 入口 · 原文 Figures</div>
+这篇 <em>Science</em> 论文建议打开原文 <a href="https://www.science.org/doi/10.1126/science.aaf2403">Figures</a> 对照阅读，尤其是 Figure 1、Figure 2 和 Figure 4。读图重点：Figure 1 看空间 barcode 如何把 mRNA 捕获位置编码进 cDNA；Figure 2 看嗅球层状 marker 是否回到已知解剖层；Figure 4 看肿瘤病理区域和表达区域如何对齐。这里的真实结果不是“聚类漂亮”，而是表达信号确实能回到组织坐标。
+</div>
+
 ### Figure 1：技术原理
 
 这张图定义 spatial barcode 逻辑。它的声明是：同一张切片上不同位置捕获的 mRNA 可通过 barcode 回到原始坐标。这个原理决定了后面所有空间分析的可信度。

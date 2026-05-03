@@ -35,6 +35,11 @@ ATAC reads 富集区被解释为 accessible chromatin。短片段多来自 nucle
 
 ## 5. 关键 Figure 拆解
 
+<div class="figure-reading" markdown="1">
+<div class="figure-reading-title">真实 Figure 入口 · 原文 Figures</div>
+这篇 <em>Nature Methods</em> 方法学论文建议打开 <a href="https://www.nature.com/articles/nmeth.2688/figures/1">Figure 1</a>、<a href="https://www.nature.com/articles/nmeth.2688/figures/2">Figure 2</a> 和 <a href="https://www.nature.com/articles/nmeth.2688/figures/3">Figure 3</a>。读图重点：Figure 1 看 Tn5 插入如何产生 TSS enrichment 和 fragment periodicity；Figure 2 看 ATAC 与 DNase/FAIRE/ChIP 的重叠；Figure 3 看低输入和 footprint 的证据边界。
+</div>
+
 ### Figure 1：ATAC 原理和开放区域信号
 
 这张图证明 Tn5 在 native chromatin 中产生可解释信号。统计动作是把 insertion sites 聚合到 TSS、known regulatory elements 和 fragment length distribution。

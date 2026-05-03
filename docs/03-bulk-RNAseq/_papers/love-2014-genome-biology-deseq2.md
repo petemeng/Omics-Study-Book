@@ -53,6 +53,16 @@ LFC shrinkage 则针对低 count 基因的巨大 log2 fold change。低表达基
 
 ## 5. 关键 Figure 拆解
 
+<figure class="source-figure" markdown="1">
+  <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13059-014-0550-8/MediaObjects/13059_2014_Article_550_Fig1_HTML.jpg" alt="DESeq2 workflow figure from Love et al. 2014">
+  <figcaption><strong>真实结果图 · Figure 1。</strong> DESeq2 的整体 workflow：从 count matrix、size factor、dispersion estimation 到 GLM 检验。读图时看三件事：输入是 raw counts；normalization 和 dispersion 不是后处理，而是模型的一部分；设计矩阵决定了最后检验的问题。来源：Love et al. 2014, <em>Genome Biology</em>, <a href="https://doi.org/10.1186/s13059-014-0550-8">DOI</a>, CC BY 4.0。</figcaption>
+</figure>
+
+<figure class="source-figure" markdown="1">
+  <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13059-014-0550-8/MediaObjects/13059_2014_Article_550_Fig2_HTML.jpg" alt="DESeq2 dispersion shrinkage figure from Love et al. 2014">
+  <figcaption><strong>真实结果图 · Figure 2。</strong> dispersion shrinkage 的核心图。黑点是基因自己的 dispersion 估计，红线是全局 trend，最终估计向 trend 借力。读这张图要把统计量翻译成生物学风险：dispersion 估得太小会制造假阳性，估得太大又会丢掉真实差异。来源：Love et al. 2014, <em>Genome Biology</em>, <a href="https://doi.org/10.1186/s13059-014-0550-8">DOI</a>, CC BY 4.0。</figcaption>
+</figure>
+
 ### Figure 1：workflow 与模型结构
 
 这张图不是装饰，而是 DESeq2 的统计路线图：raw counts -> size factors -> dispersion estimation -> GLM fitting -> Wald/LRT -> multiple testing。它的生物学声明是：差异表达不是“先归一化再比较均值”，而是在 count likelihood 中同时处理 normalization、variance 和 design。

@@ -36,6 +36,11 @@ flowchart LR
 
 ## 5. 关键 Figure 拆解
 
+<div class="figure-reading" markdown="1">
+<div class="figure-reading-title">真实 Figure 入口 · 原文 Figures</div>
+这篇 <em>Science</em> pan-cancer ATAC 论文建议打开 <a href="https://www.science.org/doi/10.1126/science.aav1898">原文 Figures</a>，重点看 Figure 1、Figure 2/3 和 Figure 4/5。读图时把每张图分成三层：peak matrix 是否区分癌种/亚型；motif 是否只是 TF family 线索；noncoding variants 或 peak-gene links 是否真的有表达/功能证据支撑。
+</div>
+
 ### Figure 1：pan-cancer accessibility atlas
 
 这张图展示不同癌症类型的 ATAC profiles。生物学声明是 chromatin accessibility 携带 cancer identity。统计上是高维 peak matrix 的降维和聚类。
