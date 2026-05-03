@@ -82,9 +82,13 @@ nav:
       - Bayesian 何时有用: _concepts/bayesian-vs-frequentist-omics.md
       - Quiz:
           - 2026-05-W1: _concepts/_quiz/2026-05-W1.md
+      - Bulk RNA-seq 深度章节:
+          - Chapter: 03-bulk-RNAseq/00-chapter.md
+          - Paper Candidates: 03-bulk-RNAseq/_papers/00-candidates.md
       - Meta:
           - Progress: _meta/progress.md
           - Task Spec: _meta/this-task.md
+          - Chapter Depth Expansion: _meta/chapter-depth-expansion.md
   - Appendix:
       - 术语表: appendix/术语表.md
       - 学习路线: appendix/学习路线.md

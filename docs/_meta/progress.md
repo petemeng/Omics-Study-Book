@@ -4,11 +4,11 @@
 
 ## 当前状态
 
-- 当前 wave：Wave 1
-- 当前组学/概念组：`_concepts`
-- 已完成：10 / 10
-- 当前组 quiz：已生成 `[[_concepts/_quiz/2026-05-W1]]`
-- 下一篇：`00-foundations/sequencing-platforms-error-models`
+- 当前 wave：Wave 2
+- 当前组学/概念组：`03-bulk-RNAseq`
+- 已完成：章首结构与文献候选清单
+- 当前组 quiz：待生成
+- 下一步：等待 Peter 从 [[03-bulk-RNAseq/_papers/00-candidates]] 勾选 3 篇文献；同时可开始板块 A 第一篇 [[03-bulk-RNAseq/transcription-pol2-mechanics]]
 
 ## 完成记录
 
@@ -26,8 +26,12 @@
   - [[_concepts/bayesian-vs-frequentist-omics]]
   - [[_concepts/00-MOC]]
   - [[_concepts/_quiz/2026-05-W1]]
+- 2026-05-03：加入 v1.1 章节深度扩展规范，并启动 `03-bulk-RNAseq`：
+  - [[_meta/chapter-depth-expansion]]
+  - [[03-bulk-RNAseq/00-chapter]]
+  - [[03-bulk-RNAseq/_papers/00-candidates]]
 
 ## Wave 完成情况
 
 - Wave 1：完成
-- Wave 2：待开始
+- Wave 2：已启动 `03-bulk-RNAseq` 五大板块结构
