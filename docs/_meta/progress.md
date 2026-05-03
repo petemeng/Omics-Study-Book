@@ -6,9 +6,9 @@
 
 - 当前 wave：Wave 2
 - 当前组学/概念组：`03-bulk-RNAseq`
-- 已完成：章首结构、文献候选清单、CNS / 高影响默认三篇选择、板块 A 第 1 篇
+- 已完成：章首结构、文献候选清单、CNS / 高影响默认三篇选择、板块 A 第 1 篇、板块 E 三篇文献深读初稿
 - 当前组 quiz：待生成
-- 下一步：继续板块 A 第二篇 [[03-bulk-RNAseq/5-prime-capping-and-meaning]]；后续按已选择的 3 篇写板块 E 文献深读
+- 下一步：继续板块 A 第二篇 [[03-bulk-RNAseq/5-prime-capping-and-meaning]]；后续可继续扩写其他组学的 `_papers/` 深读
 
 ## 完成记录
 
@@ -37,6 +37,10 @@
   - Pickrell et al. 2010, *Nature*
   - Love et al. 2014, *Genome Biology*
 - 2026-05-03：按 Peter 反馈，为全部网页组学章节的 CNS / 高影响案例深读补充科研逻辑图、实际科研解读和结论支撑边界。
+- 2026-05-03：完成 `03-bulk-RNAseq` 板块 E 三篇文献深读初稿：
+  - [[03-bulk-RNAseq/_papers/mortazavi-2008-nature-methods-rnaseq]]
+  - [[03-bulk-RNAseq/_papers/pickrell-2010-nature-expression-variation]]
+  - [[03-bulk-RNAseq/_papers/love-2014-genome-biology-deseq2]]
 
 ## Wave 完成情况
 

@@ -76,9 +76,9 @@
 
 已选择：
 
-- Mortazavi et al. 2008, *Nature Methods* — 方法学经典：RNA-seq 如何定义转录组测量
-- Pickrell et al. 2010, *Nature* — 生物学突破：RNA-seq 如何解析人群表达变异机制
-- Love et al. 2014, *Genome Biology* — 方法学反思：为什么现代 DE 需要 dispersion 与 LFC shrinkage
+- [[03-bulk-RNAseq/_papers/mortazavi-2008-nature-methods-rnaseq]] — 方法学经典：RNA-seq 如何定义转录组测量
+- [[03-bulk-RNAseq/_papers/pickrell-2010-nature-expression-variation]] — 生物学突破：RNA-seq 如何解析人群表达变异机制
+- [[03-bulk-RNAseq/_papers/love-2014-genome-biology-deseq2]] — 方法学反思：为什么现代 DE 需要 dispersion 与 LFC shrinkage
 
 ## 本章 quiz
 

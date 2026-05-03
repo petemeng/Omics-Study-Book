@@ -86,6 +86,10 @@ nav:
           - Chapter: 03-bulk-RNAseq/00-chapter.md
           - Pol II 转录机制: 03-bulk-RNAseq/transcription-pol2-mechanics.md
           - Paper Candidates: 03-bulk-RNAseq/_papers/00-candidates.md
+          - Paper 深读:
+              - Mortazavi 2008 RNA-seq: 03-bulk-RNAseq/_papers/mortazavi-2008-nature-methods-rnaseq.md
+              - Pickrell 2010 expression variation: 03-bulk-RNAseq/_papers/pickrell-2010-nature-expression-variation.md
+              - Love 2014 DESeq2: 03-bulk-RNAseq/_papers/love-2014-genome-biology-deseq2.md
       - Meta:
           - Progress: _meta/progress.md
           - Task Spec: _meta/this-task.md
