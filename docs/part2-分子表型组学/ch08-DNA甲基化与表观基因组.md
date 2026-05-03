@@ -82,4 +82,6 @@ flowchart LR
 
 **参考。** Lister et al. 2008. *Cell*. https://doi.org/10.1016/j.cell.2008.03.029；Lister et al. 2009. *Nature*. https://www.nature.com/articles/nature08514
 
+**延伸深读。** [[09-methylation/_papers/lister-2008-cell-arabidopsis-methylome]]；[[09-methylation/_papers/lister-2009-nature-human-methylome]]
+
 </div>

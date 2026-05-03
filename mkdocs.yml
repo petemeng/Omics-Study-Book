@@ -90,6 +90,19 @@ nav:
               - Mortazavi 2008 RNA-seq: 03-bulk-RNAseq/_papers/mortazavi-2008-nature-methods-rnaseq.md
               - Pickrell 2010 expression variation: 03-bulk-RNAseq/_papers/pickrell-2010-nature-expression-variation.md
               - Love 2014 DESeq2: 03-bulk-RNAseq/_papers/love-2014-genome-biology-deseq2.md
+      - Part 2 Paper 深读:
+          - scRNA-seq:
+              - Macosko 2015 Drop-seq: 04-scRNAseq/_papers/macosko-2015-cell-dropseq.md
+              - Tabula Muris 2018: 04-scRNAseq/_papers/tabula-muris-2018-nature-cell-atlas.md
+          - Spatial:
+              - Stahl 2016 Spatial transcriptomics: 06-spatial/_papers/stahl-2016-science-spatial-transcriptomics.md
+              - Moffitt 2018 MERFISH hypothalamus: 06-spatial/_papers/moffitt-2018-science-merfish-hypothalamus.md
+          - ATAC-seq:
+              - Buenrostro 2013 ATAC-seq: 08-ATAC/_papers/buenrostro-2013-nature-methods-atacseq.md
+              - Corces 2018 cancer ATAC: 08-ATAC/_papers/corces-2018-science-cancer-atac.md
+          - Methylation:
+              - Lister 2008 Arabidopsis methylome: 09-methylation/_papers/lister-2008-cell-arabidopsis-methylome.md
+              - Lister 2009 human methylome: 09-methylation/_papers/lister-2009-nature-human-methylome.md
       - Meta:
           - Progress: _meta/progress.md
           - Task Spec: _meta/this-task.md

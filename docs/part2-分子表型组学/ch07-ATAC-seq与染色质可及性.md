@@ -84,4 +84,6 @@ flowchart LR
 
 **参考。** Buenrostro et al. 2013. *Nature Methods*. https://www.nature.com/articles/nmeth.2688；Corces et al. 2018. *Science*. https://www.science.org/doi/10.1126/science.aav1898
 
+**延伸深读。** [[08-ATAC/_papers/buenrostro-2013-nature-methods-atacseq]]；[[08-ATAC/_papers/corces-2018-science-cancer-atac]]
+
 </div>

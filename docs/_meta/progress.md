@@ -41,6 +41,15 @@
   - [[03-bulk-RNAseq/_papers/mortazavi-2008-nature-methods-rnaseq]]
   - [[03-bulk-RNAseq/_papers/pickrell-2010-nature-expression-variation]]
   - [[03-bulk-RNAseq/_papers/love-2014-genome-biology-deseq2]]
+- 2026-05-03：继续完成 Part 2 其余四章的 8 篇文献深读初稿：
+  - [[04-scRNAseq/_papers/macosko-2015-cell-dropseq]]
+  - [[04-scRNAseq/_papers/tabula-muris-2018-nature-cell-atlas]]
+  - [[06-spatial/_papers/stahl-2016-science-spatial-transcriptomics]]
+  - [[06-spatial/_papers/moffitt-2018-science-merfish-hypothalamus]]
+  - [[08-ATAC/_papers/buenrostro-2013-nature-methods-atacseq]]
+  - [[08-ATAC/_papers/corces-2018-science-cancer-atac]]
+  - [[09-methylation/_papers/lister-2008-cell-arabidopsis-methylome]]
+  - [[09-methylation/_papers/lister-2009-nature-human-methylome]]
 
 ## Wave 完成情况
 
