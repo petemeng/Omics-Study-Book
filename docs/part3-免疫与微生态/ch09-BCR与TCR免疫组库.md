@@ -15,6 +15,7 @@
   <li>bulk 与单细胞 VDJ</li>
   <li>克隆型、丰度和多样性</li>
   <li>解释边界</li>
+  <li>案例深读：克隆型如何连接免疫状态</li>
 </ol></nav>
 
 ## <span class="section-num">9.1</span>V(D)J 重排与 CDR3
@@ -54,5 +55,14 @@ bulk 免疫组库通量高、适合估计整体多样性和克隆扩增，但难
 免疫组库结果要同时看三件事：克隆是否扩增，扩增克隆处于什么细胞状态，是否有独立证据支持抗原特异性。
 </div>
 
-</div>
+## <span class="section-num">9.6</span>案例深读：克隆型如何连接免疫状态
 
+**为什么必须做 BCR/TCR。** scRNA-seq 能告诉你 T 细胞处于 exhausted、cytotoxic 或 proliferative 状态，但不能告诉你这些细胞是否来自同一个克隆，也不能追踪抗原选择历史。TCR/BCR 组库把免疫受体序列作为克隆条码。
+
+**结果如何变成生物学结论。** Azizi 等人在 Cell 2018 对乳腺肿瘤微环境进行单细胞免疫图谱，并结合 TCR 信息分析 T 细胞表型多样性。Yost 等人在 Nature 2020 使用单细胞 RNA/TCR 深度测序提出：肿瘤内 T 细胞，尤其治疗响应患者中，可能由肿瘤外的新鲜非耗竭 T 细胞补充。这里 TCR 结果解决 lineage/clone tracking 问题，表达矩阵解决状态问题，两者合在一起才形成免疫动力学解释。
+
+**这个案例教什么。** 免疫组库可以回答“哪些克隆被选择、是否扩增、扩增克隆处于什么功能状态”。但克隆扩增不等于已知抗原，抗原特异性仍需要 tetramer、刺激实验、抗体结合或功能验证。
+
+**参考。** Azizi et al. 2018. *Cell*. https://www.cell.com/cell/fulltext/S0092-8674(18)30723-2；Yost et al. 2020. *Nature*. https://www.nature.com/articles/s41586-020-2056-8
+
+</div>

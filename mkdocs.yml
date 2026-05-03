@@ -68,8 +68,6 @@ nav:
   - Part 5 多组学整合:
       - ch13 蛋白质组与代谢组: part5-多组学整合/ch13-蛋白质组与代谢组.md
       - ch14 多组学整合与研究路线图: part5-多组学整合/ch14-多组学整合与研究路线图.md
-  - Part 6 案例深读:
-      - ch15 案例驱动的组学学习: part6-案例深读/ch15-案例驱动的组学学习.md
   - 方法学 Vault:
       - Map of Content: _concepts/00-MOC.md
       - 计数数据为什么用负二项: _concepts/poisson-vs-negative-binomial.md
