@@ -1,0 +1,69 @@
+site_name: Omics Study Book
+site_description: 面向生命科学研究的组学学习手册
+site_author: Peter
+site_url: https://petemeng.github.io/Omics-Study-Book/
+repo_url: https://github.com/petemeng/Omics-Study-Book
+repo_name: petemeng/Omics-Study-Book
+
+theme:
+  name: material
+  language: zh
+  font: false
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - assets/stylesheets/book-chapter.v2.css
+
+extra_javascript:
+  - assets/javascripts/chapter-toc.v2.js
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+nav:
+  - 前言: index.md
+  - Part 1 入门框架:
+      - ch01 组学全景与问题意识: part1-入门框架/ch01-组学全景与问题意识.md
+      - ch02 实验设计与批次效应: part1-入门框架/ch02-实验设计与批次效应.md
+      - ch03 测序基础与数据质量: part1-入门框架/ch03-测序基础与数据质量.md
+  - Part 2 分子表型组学:
+      - ch04 转录组 RNA-seq: part2-分子表型组学/ch04-转录组RNA-seq.md
+      - ch05 单细胞转录组: part2-分子表型组学/ch05-单细胞转录组.md
+      - ch06 空间转录组: part2-分子表型组学/ch06-空间转录组.md
+      - ch07 ATAC-seq 与染色质可及性: part2-分子表型组学/ch07-ATAC-seq与染色质可及性.md
+      - ch08 DNA甲基化与表观基因组: part2-分子表型组学/ch08-DNA甲基化与表观基因组.md
+  - Part 3 免疫与微生态:
+      - ch09 BCR与TCR免疫组库: part3-免疫与微生态/ch09-BCR与TCR免疫组库.md
+      - ch10 微生物组与宏基因组: part3-免疫与微生态/ch10-微生物组与宏基因组.md
+  - Part 4 遗传变异与数量性状:
+      - ch11 GWAS与群体遗传: part4-遗传变异与数量性状/ch11-GWAS与群体遗传.md
+      - ch12 eQTL与多组学关联: part4-遗传变异与数量性状/ch12-eQTL与多组学关联.md
+  - Part 5 多组学整合:
+      - ch13 蛋白质组与代谢组: part5-多组学整合/ch13-蛋白质组与代谢组.md
+      - ch14 多组学整合与研究路线图: part5-多组学整合/ch14-多组学整合与研究路线图.md
+  - Appendix:
+      - 术语表: appendix/术语表.md
+      - 学习路线: appendix/学习路线.md
+      - 工具与数据资源: appendix/工具与数据资源.md
+      - 推荐阅读: appendix/推荐阅读.md
+
