@@ -84,6 +84,7 @@ nav:
           - 2026-05-W1: _concepts/_quiz/2026-05-W1.md
       - Bulk RNA-seq 深度章节:
           - Chapter: 03-bulk-RNAseq/00-chapter.md
+          - Pol II 转录机制: 03-bulk-RNAseq/transcription-pol2-mechanics.md
           - Paper Candidates: 03-bulk-RNAseq/_papers/00-candidates.md
       - Meta:
           - Progress: _meta/progress.md

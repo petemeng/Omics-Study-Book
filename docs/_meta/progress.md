@@ -6,9 +6,9 @@
 
 - 当前 wave：Wave 2
 - 当前组学/概念组：`03-bulk-RNAseq`
-- 已完成：章首结构与文献候选清单
+- 已完成：章首结构、文献候选清单、板块 A 第 1 篇
 - 当前组 quiz：待生成
-- 下一步：等待 Peter 从 [[03-bulk-RNAseq/_papers/00-candidates]] 勾选 3 篇文献；同时可开始板块 A 第一篇 [[03-bulk-RNAseq/transcription-pol2-mechanics]]
+- 下一步：等待 Peter 从 [[03-bulk-RNAseq/_papers/00-candidates]] 勾选 3 篇文献；同时继续板块 A 第二篇 [[03-bulk-RNAseq/5-prime-capping-and-meaning]]
 
 ## 完成记录
 
@@ -30,8 +30,10 @@
   - [[_meta/chapter-depth-expansion]]
   - [[03-bulk-RNAseq/00-chapter]]
   - [[03-bulk-RNAseq/_papers/00-candidates]]
+- 2026-05-03：完成 `03-bulk-RNAseq` 板块 A 第 1 篇：
+  - [[03-bulk-RNAseq/transcription-pol2-mechanics]]
 
 ## Wave 完成情况
 
 - Wave 1：完成
-- Wave 2：已启动 `03-bulk-RNAseq` 五大板块结构
+- Wave 2：已启动 `03-bulk-RNAseq` 五大板块结构，板块 A 完成 1/10
