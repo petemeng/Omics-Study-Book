@@ -26,6 +26,12 @@
 <p><strong>生物学主线。</strong> 变异可以通过 promoter、enhancer、splicing、RNA stability、chromatin accessibility 或 methylation 改变分子表型。多组学 QTL 的价值是把“遗传差异”拆成可验证的分子中介链。</p>
 </div>
 
+<div class="biology-primer" markdown="1">
+<div class="biology-primer-title">零基础生物学底座：遗传变异怎样影响表达？</div>
+<p>一个 SNP 不一定落在蛋白编码区。它可能落在 promoter 或 enhancer 上，改变转录因子是否能结合；也可能影响剪接位点、UTR、RNA 稳定性或染色质状态。这样一来，两个个体虽然有同一个基因，但这个基因在某个组织里表达多少可能不同。</p>
+<p>eQTL 就是把 genotype 和 expression 放在一起看：某个等位基因是否总是伴随某个基因表达更高或更低。它帮助我们从“这个 GWAS 位点和性状相关”推进到“它可能通过改变哪个基因、在哪个组织或细胞类型中起作用”。</p>
+</div>
+
 ## <span class="section-num">12.1</span>QTL 的基本概念
 
 QTL（Quantitative Trait Locus）是影响数量性状的遗传位点。eQTL 研究遗传变异如何影响基因表达；sQTL 研究剪接；meQTL 研究甲基化；caQTL 研究染色质可及性；pQTL 研究蛋白水平；mQTL 研究代谢物。它们都把遗传变异与中间分子表型连接起来。

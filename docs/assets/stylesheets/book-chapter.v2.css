@@ -185,6 +185,34 @@
   color: var(--color-primary);
 }
 
+.md-typeset .biology-primer {
+  margin: 1.4rem 0 2rem;
+  padding: 1.05rem 1.2rem;
+  background: #fffaf0;
+  border: 1px solid #efe0bd;
+  border-left: 4px solid #c7922b;
+  border-radius: 0 6px 6px 0;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  line-height: 1.62;
+}
+
+.md-typeset .biology-primer-title {
+  font-weight: 700;
+  color: #7a4c00;
+  font-size: 0.72rem;
+  margin-bottom: 0.55rem;
+}
+
+.md-typeset .biology-primer p {
+  margin: 0.45rem 0;
+  text-align: left;
+}
+
+.md-typeset .biology-primer strong {
+  color: #7a4c00;
+}
+
 .md-typeset .page-wrapper h2 {
   font-family: var(--font-serif);
   font-size: 1.139rem;

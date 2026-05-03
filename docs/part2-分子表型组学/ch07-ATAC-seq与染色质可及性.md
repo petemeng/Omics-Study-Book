@@ -26,6 +26,12 @@
 <p><strong>生物学主线。</strong> ATAC 读的是调控潜能：染色质是否允许转录因子访问。它比 RNA 更靠近上游调控，但仍只是 DNA 可及性这一层，不是最终表达或功能。</p>
 </div>
 
+<div class="biology-primer" markdown="1">
+<div class="biology-primer-title">零基础生物学底座：DNA 为什么有“开”和“关”？</div>
+<p>细胞里的 DNA 很长，不能散开成一团线，而是缠绕在 histone 蛋白上形成 nucleosome，再进一步折叠成 chromatin。这样做能把 DNA 收纳进细胞核，但也带来一个问题：如果某段 DNA 被包得很紧，转录因子和 RNA polymerase 就很难接近它。</p>
+<p>ATAC-seq 测的是哪些 DNA 区域比较“松”、比较容易被 Tn5 酶切入。开放区域常常是 promoter、enhancer 或其它调控元件，表示细胞可能允许某些基因被调控。初学者要记住：ATAC 不是测 RNA，也不是直接测蛋白结合；它测的是基因组说明书上哪些页被翻开了。</p>
+</div>
+
 ## <span class="section-num">7.1</span>ATAC-seq 的基本原理
 
 ATAC-seq 的核心是 Tn5 transposase。Tn5 更容易进入核小体缺失或染色质开放区域，并在切割 DNA 的同时插入测序接头。测序后，reads 富集的位置被称为 peaks，通常代表启动子、增强子、绝缘子或其他开放调控区域。

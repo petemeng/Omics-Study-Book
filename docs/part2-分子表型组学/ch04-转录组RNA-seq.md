@@ -26,6 +26,12 @@
 <p><strong>生物学主线。</strong> RNA abundance 是转录、剪接、加帽、加尾、输出、稳定性和降解共同作用后的净结果。读 RNA-seq 时要问：变化来自转录增强、RNA processing、细胞比例变化，还是 RNA 半衰期改变？</p>
 </div>
 
+<div class="biology-primer" markdown="1">
+<div class="biology-primer-title">零基础生物学底座：RNA 到底是什么？</div>
+<p>DNA 像细胞里的长期说明书，RNA 像从说明书上临时抄出来、准备执行的工作单。一个基因要发挥作用，通常先由 RNA polymerase 把 DNA 上的信息抄成 pre-mRNA，再经过加帽、剪接、加 poly(A) 尾，变成成熟 mRNA，最后被核糖体翻译成蛋白。</p>
+<p>所以 RNA-seq 看到的不是“基因是否存在”，而是“某一时刻细胞正在抄哪些工作单、抄了多少、这些工作单是否被加工和保留下来”。如果免疫基因 RNA 变多，可能说明细胞进入防御状态；如果光合作用相关 RNA 下降，可能说明叶绿体或叶肉细胞状态改变。但 RNA 只是功能链条的中间层，不能直接等同于蛋白活性。</p>
+</div>
+
 ## <span class="section-num">4.1</span>RNA-seq 测量的对象
 
 RNA-seq 测量的是 RNA 分子的相对丰度。它可以回答“某条件下哪些基因表达更高或更低”，也可以分析可变剪接、融合转录本、等位基因特异表达和非编码 RNA。但 RNA-seq 不能直接告诉我们蛋白水平、蛋白活性或代谢通量。
