@@ -18,6 +18,14 @@
   <li>CNS / 高影响案例深读：GTEx 如何把遗传变异连接到分子机制</li>
 </ol></nav>
 
+<div class="learning-guide" markdown="1">
+<div class="learning-guide-title">本章学习导向：eQTL / 多组学 QTL 一般为了解决什么问题？</div>
+<p><strong>常见问题。</strong> eQTL 用来问“遗传变异是否通过改变表达影响分子状态或表型”。它是 GWAS 到机制之间的桥：把 SNP 从抽象关联位点连接到基因表达、剪接、染色质、甲基化、蛋白或代谢物。</p>
+<p><strong>一般分析思路。</strong> 先把 genotype 和 matched molecular phenotype 对齐，控制群体结构、批次、细胞组成和隐藏因子；再做 cis/trans QTL、细胞类型或条件特异 QTL、共定位、TWAS/MR，最后用 ATAC、3D genome、扰动和功能实验验证候选链条。</p>
+<p><strong>为什么这样分析。</strong> SNP-expression 相关不等于 GWAS 因果机制。GWAS 和 eQTL 可能只是 LD 中不同因果变异造成的重叠信号；bulk eQTL 还会被细胞组成稀释或伪造，所以必须做共定位和细胞类型/条件分层。</p>
+<p><strong>生物学主线。</strong> 变异可以通过 promoter、enhancer、splicing、RNA stability、chromatin accessibility 或 methylation 改变分子表型。多组学 QTL 的价值是把“遗传差异”拆成可验证的分子中介链。</p>
+</div>
+
 ## <span class="section-num">12.1</span>QTL 的基本概念
 
 QTL（Quantitative Trait Locus）是影响数量性状的遗传位点。eQTL 研究遗传变异如何影响基因表达；sQTL 研究剪接；meQTL 研究甲基化；caQTL 研究染色质可及性；pQTL 研究蛋白水平；mQTL 研究代谢物。它们都把遗传变异与中间分子表型连接起来。

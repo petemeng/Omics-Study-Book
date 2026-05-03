@@ -18,6 +18,14 @@
   <li>CNS / 高影响案例深读：克隆型如何连接免疫状态</li>
 </ol></nav>
 
+<div class="learning-guide" markdown="1">
+<div class="learning-guide-title">本章学习导向：BCR/TCR 免疫组库一般为了解决什么问题？</div>
+<p><strong>常见问题。</strong> 免疫组库用来追踪克隆扩增、抗原经验、疫苗反应、肿瘤浸润、自身免疫和抗体亲和成熟。它回答的不是“哪些基因表达高”，而是“哪些淋巴细胞克隆被选择、扩增或保留下来”。</p>
+<p><strong>一般分析思路。</strong> 先做 V(D)J 比对和 clonotype 定义，再分析克隆丰度、多样性、V/J 使用、CDR3 motif、组织/时间共享；BCR 进一步看 SHM、clonal lineage 和 isotype，单细胞 VDJ 则把受体序列和细胞状态配对。</p>
+<p><strong>为什么这样分析。</strong> 免疫受体序列是天然 lineage barcode。克隆扩增提示选择历史，但不直接告诉你抗原是谁；BCR 突变树和类别转换提示 germinal center 和亲和成熟；TCR 扩增需要结合细胞状态和抗原验证。</p>
+<p><strong>生物学主线。</strong> 组库记录的是生成、筛选、抗原刺激、扩增、记忆和组织迁移的历史。读结果时要把“克隆是否变大”“克隆处于什么细胞状态”“有没有抗原特异性证据”分开。</p>
+</div>
+
 ## <span class="section-num">9.1</span>V(D)J 重排与 CDR3
 
 B 细胞和 T 细胞通过 V(D)J 重排产生高度多样的抗原受体。TCR 识别抗原肽-MHC 复合物，BCR 可以识别天然抗原。重排过程中 V、D、J 片段组合，并在连接处产生插入和删除，形成高度多样的 CDR3 区域。CDR3 通常是定义克隆型的核心。

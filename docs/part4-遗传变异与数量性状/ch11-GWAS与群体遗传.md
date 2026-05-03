@@ -18,6 +18,14 @@
   <li>CNS / 高影响案例深读：植物 GWAS 如何从关联走向候选机制</li>
 </ol></nav>
 
+<div class="learning-guide" markdown="1">
+<div class="learning-guide-title">本章学习导向：GWAS 一般为了解决什么问题？</div>
+<p><strong>常见问题。</strong> GWAS 用来问“自然群体中的哪些遗传变异与性状差异相关”。它适合定位复杂性状候选区域、发现自然等位基因、研究地方适应和驯化，也能为后续功能验证提供入口。</p>
+<p><strong>一般分析思路。</strong> 先保证表型定义和基因型 QC，再控制缺失率、MAF、亲缘关系和群体结构，建立 SNP-phenotype 关联模型；随后看 QQ/Manhattan、LD block、fine mapping、候选基因注释、eQTL/ATAC/表达整合和独立群体验证。</p>
+<p><strong>为什么这样分析。</strong> 关联信号很容易被群体结构、亲缘关系、表型噪音和 LD 误导。GWAS peak 通常只是标记了一个相关区域，不等于峰顶 SNP 是因果变异，也不等于最近基因就是因果基因。</p>
+<p><strong>生物学主线。</strong> 复杂性状常由多位点、小效应、环境和调控变异共同塑造。读 GWAS 时要从“显著位点”继续追问：哪个变异、哪个细胞/组织、哪个调控或蛋白机制、在哪个环境中影响表型？</p>
+</div>
+
 ## <span class="section-num">11.1</span>GWAS 的基本思想
 
 GWAS（Genome-Wide Association Study）在全基因组范围内检验遗传变异与表型之间的统计关联。基本模型是：对每个 SNP，比较不同基因型个体的表型是否系统性不同。对于二分类疾病常用 logistic model，对于连续性状常用 linear model 或 mixed model。

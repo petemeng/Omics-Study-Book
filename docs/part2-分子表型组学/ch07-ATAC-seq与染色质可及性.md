@@ -18,6 +18,14 @@
   <li>CNS / 高影响案例深读：开放染色质如何指向调控元件</li>
 </ol></nav>
 
+<div class="learning-guide" markdown="1">
+<div class="learning-guide-title">本章学习导向：ATAC-seq 一般为了解决什么问题？</div>
+<p><strong>常见问题。</strong> ATAC-seq 用来问“哪些调控 DNA 处于可访问状态”。它适合寻找候选 promoter/enhancer、比较细胞状态的调控潜能、推断候选 TF program，并帮助解释非编码 GWAS 位点或处理响应的上游调控层。</p>
+<p><strong>一般分析思路。</strong> 先看 TSS enrichment、FRiP、fragment length 和线粒体/叶绿体污染，再 call peaks，构建 peak-by-sample 或 peak-by-cell 矩阵，做差异可及性、motif 富集、footprint/gene activity 和 peak-to-gene linkage。</p>
+<p><strong>为什么这样分析。</strong> Tn5 插入偏向开放染色质，但开放不等于 TF 已结合，也不等于 enhancer 有功能。QC 先确认看到的是核小体组织和真实开放区域，motif 和 peak-gene 分析只能提出调控假设，需要 RNA、ChIP/CUT&Tag、Hi-C/eQTL 或扰动验证。</p>
+<p><strong>生物学主线。</strong> ATAC 读的是调控潜能：染色质是否允许转录因子访问。它比 RNA 更靠近上游调控，但仍只是 DNA 可及性这一层，不是最终表达或功能。</p>
+</div>
+
 ## <span class="section-num">7.1</span>ATAC-seq 的基本原理
 
 ATAC-seq 的核心是 Tn5 transposase。Tn5 更容易进入核小体缺失或染色质开放区域，并在切割 DNA 的同时插入测序接头。测序后，reads 富集的位置被称为 peaks，通常代表启动子、增强子、绝缘子或其他开放调控区域。

@@ -18,6 +18,14 @@
   <li>CNS / 高影响案例深读：RNA-seq 如何读出表达变异机制</li>
 </ol></nav>
 
+<div class="learning-guide" markdown="1">
+<div class="learning-guide-title">本章学习导向：RNA-seq 一般为了解决什么问题？</div>
+<p><strong>常见问题。</strong> RNA-seq 最常用来回答“某个处理、基因型、组织、时间点或疾病状态下，细胞的转录输出发生了什么变化”。它适合做状态扫描、通路假设、细胞组成线索、剪接或等位基因表达线索，但不能单独证明蛋白活性、代谢通量或因果调控。</p>
+<p><strong>一般分析思路。</strong> 先确认样本设计和 QC，再从 raw counts 建立 gene-by-sample 矩阵，做归一化、离散度估计和差异表达模型；随后看 PCA/样本关系、DEG、通路富集、剪接/isoform 或网络模块，最后挑关键基因和通路做独立验证。</p>
+<p><strong>为什么这样分析。</strong> RNA-seq reads 是 RNA 分子的抽样结果，同时受 library size、生物重复变异、RNA 长度、组成偏差和细胞混合影响。先建模 count 噪音，再解释生物学差异，是为了避免把测序深度、批次或低表达随机波动当成真实调控。</p>
+<p><strong>生物学主线。</strong> RNA abundance 是转录、剪接、加帽、加尾、输出、稳定性和降解共同作用后的净结果。读 RNA-seq 时要问：变化来自转录增强、RNA processing、细胞比例变化，还是 RNA 半衰期改变？</p>
+</div>
+
 ## <span class="section-num">4.1</span>RNA-seq 测量的对象
 
 RNA-seq 测量的是 RNA 分子的相对丰度。它可以回答“某条件下哪些基因表达更高或更低”，也可以分析可变剪接、融合转录本、等位基因特异表达和非编码 RNA。但 RNA-seq 不能直接告诉我们蛋白水平、蛋白活性或代谢通量。

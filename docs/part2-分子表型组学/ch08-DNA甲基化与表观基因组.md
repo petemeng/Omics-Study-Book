@@ -18,6 +18,14 @@
   <li>CNS / 高影响案例深读：单碱基分辨率如何改变甲基化问题</li>
 </ol></nav>
 
+<div class="learning-guide" markdown="1">
+<div class="learning-guide-title">本章学习导向：DNA 甲基化组一般为了解决什么问题？</div>
+<p><strong>常见问题。</strong> 甲基化组用来研究基因组区域是否处于长期沉默、细胞身份、发育历史、环境暴露、转座子压制或表观遗传重编程状态。它特别适合问“这个区域的调控状态是否被稳定记录下来”。</p>
+<p><strong>一般分析思路。</strong> 先确认测序/芯片覆盖、转化效率、位点过滤和细胞组成，再计算 CpG 或 cytosine methylation level，识别 DMP/DMR，并按 promoter、enhancer、gene body、repeat、imprinted region、植物 CG/CHG/CHH context 分层解释。</p>
+<p><strong>为什么这样分析。</strong> 甲基化的功能高度依赖位置和 context。promoter 高甲基化常与沉默相关，但 gene body、enhancer 和转座子甲基化含义不同；植物 CG、CHG、CHH 分别对应不同维护机制和 RdDM 逻辑，不能混成一个平均值。</p>
+<p><strong>生物学主线。</strong> 甲基化是写入、维护和擦除的动态系统。读结果时要问：它是驱动调控、转座子防御、细胞组成变化，还是发育/环境过程留下的历史记录？</p>
+</div>
+
 ## <span class="section-num">8.1</span>5mC 的生物学含义
 
 DNA 甲基化最常指胞嘧啶 5 位甲基化（5mC）。在哺乳动物中，它主要发生在 CpG 位点。启动子 CpG island 高甲基化通常与转录沉默相关，而基因体甲基化、增强子甲基化和非 CpG 甲基化的解释更依赖细胞类型和基因组背景。
