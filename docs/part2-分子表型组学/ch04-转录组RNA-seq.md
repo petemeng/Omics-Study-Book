@@ -61,11 +61,30 @@ RNA-seq 最适合做“状态扫描”和“假设生成”。如果要证明某
 
 **我选的案例。** Pickrell et al. 2010, *Nature*，题目是 *Understanding mechanisms underlying human gene expression variation with RNA sequencing*。这篇比单纯“RNA-seq 能测表达”的方法论文更适合放在这里：它展示 RNA-seq 为什么能同时回答 expression level、splicing、allele-specific expression 三类问题。
 
+**科研逻辑图。**
+
+```mermaid
+flowchart LR
+  Q[真实问题: 人群表达差异从哪来] --> D[设计: 同一批个体测 genotype + RNA-seq]
+  D --> R1[exon/gene reads: 表达量]
+  D --> R2[junction reads: 剪接结构]
+  D --> R3[heterozygous SNP reads: allele-specific expression]
+  R1 --> M1[eQTL: 变异影响总表达]
+  R2 --> M2[sQTL: 变异影响 isoform 使用]
+  R3 --> M3[cis 调控: 两个等位基因在同一细胞环境内不等量输出]
+  M1 --> C[机制假设: 调控变异改变 RNA 输出]
+  M2 --> C
+  M3 --> C
+  C --> V[下一步: reporter / CRISPR / long-read / tissue validation]
+```
+
 **为什么必须做 RNA-seq。** 这篇论文之前，eQTL 主要依赖 microarray。array 可以比较探针强度，但对未注释转录本、外显子使用、等位基因特异表达和剪接位点附近变异的分辨率有限。Pickrell 等人测了 69 个 HapMap 尼日利亚个体的 lymphoblastoid cell lines，把 RNA reads 与已知基因型放在一起问：自然人群中的表达差异，到底是 gene-level abundance 变了，还是 transcript structure 和 allele-specific output 变了？
 
 **原理如何支撑结论。** RNA-seq 的核心不是“把 RNA 变成 reads”这么简单，而是 reads 带有基因组坐标。落在 exon 上的 reads 支持表达量，跨 splice junction 的 reads 支持剪接结构，覆盖 heterozygous SNP 的 reads 支持 allele-specific expression。于是同一套数据能把 eQTL 拆成三种机制证据：总表达差异、isoform usage 差异和 cis 调控导致的等位基因偏倚。
 
-**结果解决了什么生物学问题。** 这篇文章把“表达差异是遗传调控造成的”推进到更细一层：有些近端 eQTL 通过 allele-specific expression 起作用，有些变异影响 exon inclusion，并且这类信号富集在剪接共识位点附近。也就是说，RNA-seq 不只是给 DEG list，而是在告诉你遗传变异可以通过转录量、剪接和等位基因输出三条路径改变分子表型。
+**从实际科研逻辑怎么读。** 如果你在自己的材料里看到两个品种或处理组表达不同，第一反应不该是“做富集”。要先拆变量：差异来自启动子/增强子调控、RNA processing、细胞组成，还是 RNA 稳定性？Pickrell 的设计强在同一个个体同时有 genotype 和 RNA，因此能把“表达差异”拉回遗传解释。ASE 尤其有力，因为两个等位基因处在同一个 nucleus、同一批 trans factors 里；如果一个 allele consistently 更高，cis 调控的证据比跨个体表达相关更强。
+
+**关键结果如何支撑生物学声明。** gene-level eQTL 说明变异和表达量相关；junction 或 exon usage 信号说明变异可能改变剪接；ASE 说明同一细胞环境内两个 haplotype 的 RNA 输出不等。三者合在一起，论文的声明不是“我们发现很多差异表达基因”，而是“人群表达变异可以被分解成若干可测的分子机制”。这就是 RNA-seq 相对 array 的范式升级：它读的不是一个探针强度，而是转录本在基因组上的结构化证据。
 
 **结论边界。** 它用的是 LCL 细胞系，不代表所有组织；样本量对 trans-eQTL 和小效应剪接事件有限；短读长对复杂 isoform 的解析仍不完整。今天重做会加入 long-read RNA-seq、single-cell eQTL、nascent RNA 和 ATAC/Hi-C 共定位，进一步区分 promoter、enhancer 和 RNA processing 层的因果贡献。
 

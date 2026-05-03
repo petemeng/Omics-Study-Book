@@ -36,6 +36,7 @@
   - Mortazavi et al. 2008, *Nature Methods*
   - Pickrell et al. 2010, *Nature*
   - Love et al. 2014, *Genome Biology*
+- 2026-05-03：按 Peter 反馈，为全部网页组学章节的 CNS / 高影响案例深读补充科研逻辑图、实际科研解读和结论支撑边界。
 
 ## Wave 完成情况
 

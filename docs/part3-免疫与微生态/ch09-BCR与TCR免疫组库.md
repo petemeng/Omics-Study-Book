@@ -59,11 +59,28 @@ bulk 免疫组库通量高、适合估计整体多样性和克隆扩增，但难
 
 **我选的案例。** BCR 侧选 Briney et al. 2019, *Nature*，因为它把“人类抗体组库有多大”变成可测量问题；TCR 侧选 Glanville et al. 2017, *Nature* 和 Yost et al. 2019, *Nature Medicine*，分别代表抗原特异性聚类和单细胞 RNA/TCR 联合解释免疫治疗。
 
+**科研逻辑图。**
+
+```mermaid
+flowchart LR
+  Q[真实问题: 哪些免疫克隆被抗原选择] --> V[VDJ receptor sequencing]
+  V --> C[clonotype / CDR3 / VJ usage]
+  C --> E[clonal expansion: 选择或增殖痕迹]
+  C --> S[sequence similarity: 可能抗原特异性]
+  C --> R[single-cell GEX+VDJ: 克隆状态配对]
+  E --> H[免疫历史假设]
+  S --> H
+  R --> H
+  H --> V2[tetramer / stimulation / antibody binding / killing assay]
+```
+
 **为什么必须做 BCR/TCR。** scRNA-seq 能告诉你 T 细胞处于 exhausted、cytotoxic 或 proliferative 状态，但不能告诉你这些细胞是否来自同一个克隆，也不能追踪抗原选择历史。TCR/BCR 组库把免疫受体序列作为天然 lineage barcode；BCR 还携带 SHM、isotype 和 clonal family 信息，能读出亲和成熟与抗体谱系。
 
 **原理如何支撑结论。** 组库测序的统计单位不是基因，而是重排后的 receptor sequence，尤其是 CDR3。Briney 用大规模 BCR sequencing 估计 clonal diversity 和共享程度，回答“人类抗体空间到底有多大”。Glanville 的 GLIPH 逻辑是：识别同一抗原的 TCR 往往在 CDR3 motifs、长度和 V gene 使用上有局部相似性，因此可以从 repertoire 中聚类出 specificity groups。Yost 则把 TCR clonotype 和 scRNA cell state 合并，区分“同一克隆状态改变”与“治疗后新克隆进入肿瘤”。
 
-**结果解决了什么生物学问题。** BCR 数据解决“抗体多样性、亲和成熟、类别转换和克隆谱系”问题；TCR 数据解决“哪些克隆被抗原选择、是否扩增、是否进入耗竭或细胞毒状态”问题。Yost 的关键结论是 PD-1 blockade 后肿瘤内 T 细胞响应不只是原有 exhausted clones 复苏，还包含新 T cell clones 的进入，这改变了“免疫治疗如何重塑 TME”的解释。
+**从实际科研逻辑怎么读。** 免疫组库论文先看“克隆定义”而不是先看 diversity index。CDR3 完全相同、CDR3 相似、同一 V/J、同一 heavy-light pair，代表不同强度的 clonality 证据。其次看采样单位：血液、肿瘤、淋巴结和组织驻留细胞的 repertoire 含义不同。Yost 的逻辑强在它不是只说某些 T cells exhausted，而是问治疗前后同一克隆是否保留、扩增或被替换；这就把“细胞状态图谱”升级成“免疫动态”。
+
+**关键结果如何支撑生物学声明。** clonotype expansion 支持抗原经历或局部选择，但不告诉你抗原是谁；TCR similarity clustering 支持 specificity group 假设，但仍需抗原验证；单细胞 GEX+TCR 如果显示某个扩增克隆同时处于 cytotoxic/exhausted 状态，才支持“该抗原经验克隆参与局部免疫反应”。BCR 里，如果同一 clonal family 呈现 SHM 梯度和 class switch，则支持 germinal center selection 和 affinity maturation 的历史。
 
 **结论边界。** 克隆扩增不等于已知抗原；相似 CDR3 不保证同一 specificity；bulk BCR 不能配 heavy/light chain，bulk TCR 不能可靠配 alpha/beta。强证据需要 tetramer、抗原刺激、抗体结合、结构生物学或功能杀伤实验。单细胞 VDJ 解决配对和状态问题，但会受捕获率、doublet、低频克隆和组织采样偏差影响。
 
