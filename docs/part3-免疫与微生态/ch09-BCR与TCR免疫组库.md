@@ -15,7 +15,7 @@
   <li>bulk 与单细胞 VDJ</li>
   <li>克隆型、丰度和多样性</li>
   <li>解释边界</li>
-  <li>案例深读：克隆型如何连接免疫状态</li>
+  <li>CNS / 高影响案例深读：克隆型如何连接免疫状态</li>
 </ol></nav>
 
 ## <span class="section-num">9.1</span>V(D)J 重排与 CDR3
@@ -55,14 +55,18 @@ bulk 免疫组库通量高、适合估计整体多样性和克隆扩增，但难
 免疫组库结果要同时看三件事：克隆是否扩增，扩增克隆处于什么细胞状态，是否有独立证据支持抗原特异性。
 </div>
 
-## <span class="section-num">9.6</span>案例深读：克隆型如何连接免疫状态
+## <span class="section-num">9.6</span>CNS / 高影响案例深读：克隆型如何连接免疫状态
 
-**为什么必须做 BCR/TCR。** scRNA-seq 能告诉你 T 细胞处于 exhausted、cytotoxic 或 proliferative 状态，但不能告诉你这些细胞是否来自同一个克隆，也不能追踪抗原选择历史。TCR/BCR 组库把免疫受体序列作为克隆条码。
+**我选的案例。** BCR 侧选 Briney et al. 2019, *Nature*，因为它把“人类抗体组库有多大”变成可测量问题；TCR 侧选 Glanville et al. 2017, *Nature* 和 Yost et al. 2019, *Nature Medicine*，分别代表抗原特异性聚类和单细胞 RNA/TCR 联合解释免疫治疗。
 
-**结果如何变成生物学结论。** Azizi 等人在 Cell 2018 对乳腺肿瘤微环境进行单细胞免疫图谱，并结合 TCR 信息分析 T 细胞表型多样性。Yost 等人在 Nature 2020 使用单细胞 RNA/TCR 深度测序提出：肿瘤内 T 细胞，尤其治疗响应患者中，可能由肿瘤外的新鲜非耗竭 T 细胞补充。这里 TCR 结果解决 lineage/clone tracking 问题，表达矩阵解决状态问题，两者合在一起才形成免疫动力学解释。
+**为什么必须做 BCR/TCR。** scRNA-seq 能告诉你 T 细胞处于 exhausted、cytotoxic 或 proliferative 状态，但不能告诉你这些细胞是否来自同一个克隆，也不能追踪抗原选择历史。TCR/BCR 组库把免疫受体序列作为天然 lineage barcode；BCR 还携带 SHM、isotype 和 clonal family 信息，能读出亲和成熟与抗体谱系。
 
-**这个案例教什么。** 免疫组库可以回答“哪些克隆被选择、是否扩增、扩增克隆处于什么功能状态”。但克隆扩增不等于已知抗原，抗原特异性仍需要 tetramer、刺激实验、抗体结合或功能验证。
+**原理如何支撑结论。** 组库测序的统计单位不是基因，而是重排后的 receptor sequence，尤其是 CDR3。Briney 用大规模 BCR sequencing 估计 clonal diversity 和共享程度，回答“人类抗体空间到底有多大”。Glanville 的 GLIPH 逻辑是：识别同一抗原的 TCR 往往在 CDR3 motifs、长度和 V gene 使用上有局部相似性，因此可以从 repertoire 中聚类出 specificity groups。Yost 则把 TCR clonotype 和 scRNA cell state 合并，区分“同一克隆状态改变”与“治疗后新克隆进入肿瘤”。
 
-**参考。** Azizi et al. 2018. *Cell*. https://www.cell.com/cell/fulltext/S0092-8674(18)30723-2；Yost et al. 2020. *Nature*. https://www.nature.com/articles/s41586-020-2056-8
+**结果解决了什么生物学问题。** BCR 数据解决“抗体多样性、亲和成熟、类别转换和克隆谱系”问题；TCR 数据解决“哪些克隆被抗原选择、是否扩增、是否进入耗竭或细胞毒状态”问题。Yost 的关键结论是 PD-1 blockade 后肿瘤内 T 细胞响应不只是原有 exhausted clones 复苏，还包含新 T cell clones 的进入，这改变了“免疫治疗如何重塑 TME”的解释。
+
+**结论边界。** 克隆扩增不等于已知抗原；相似 CDR3 不保证同一 specificity；bulk BCR 不能配 heavy/light chain，bulk TCR 不能可靠配 alpha/beta。强证据需要 tetramer、抗原刺激、抗体结合、结构生物学或功能杀伤实验。单细胞 VDJ 解决配对和状态问题，但会受捕获率、doublet、低频克隆和组织采样偏差影响。
+
+**参考。** Briney et al. 2019. *Nature*. https://www.nature.com/articles/s41586-019-0879-y；Glanville et al. 2017. *Nature*. https://www.nature.com/articles/nature22976；Yost et al. 2019. *Nature Medicine*. https://www.nature.com/articles/s41591-019-0522-3
 
 </div>

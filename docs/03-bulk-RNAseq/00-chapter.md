@@ -68,19 +68,18 @@
 
 ## 板块 E · CNS 文献深读
 
-本板块固定 3 篇：方法学经典、生物学突破、方法学反思。候选清单先放在 `_papers/00-candidates.md`，等待 Peter 勾选。
+本板块固定 3 篇：方法学经典、生物学突破、方法学反思。Peter 已授权 Codex 按教学价值直接选择。
 
 候选列表：
 
 - [[03-bulk-RNAseq/_papers/00-candidates]]
 
-待 Peter 勾选后写入：
+已选择：
 
-- [[03-bulk-RNAseq/_papers/待选择-方法学经典]]
-- [[03-bulk-RNAseq/_papers/待选择-生物学突破]]
-- [[03-bulk-RNAseq/_papers/待选择-方法学反思]]
+- Mortazavi et al. 2008, *Nature Methods* — 方法学经典：RNA-seq 如何定义转录组测量
+- Pickrell et al. 2010, *Nature* — 生物学突破：RNA-seq 如何解析人群表达变异机制
+- Love et al. 2014, *Genome Biology* — 方法学反思：为什么现代 DE 需要 dispersion 与 LFC shrinkage
 
 ## 本章 quiz
 
 - [[03-bulk-RNAseq/_quiz/待生成]]
-

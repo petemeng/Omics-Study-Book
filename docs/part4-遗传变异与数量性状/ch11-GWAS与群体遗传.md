@@ -15,7 +15,7 @@
   <li>标准分析流程</li>
   <li>从关联位点到候选基因</li>
   <li>常见误区</li>
-  <li>案例深读：水稻起源与驯化</li>
+  <li>CNS / 高影响案例深读：植物 GWAS 如何从关联走向候选机制</li>
 </ol></nav>
 
 ## <span class="section-num">11.1</span>GWAS 的基本思想
@@ -58,14 +58,18 @@ flowchart LR
 GWAS 命中后最重要的问题不是“这个 SNP 显著吗”，而是“它通过哪个变异、哪个细胞类型、哪个调控机制影响表型”。
 </div>
 
-## <span class="section-num">11.6</span>案例深读：水稻起源与驯化
+## <span class="section-num">11.6</span>CNS / 高影响案例深读：植物 GWAS 如何从关联走向候选机制
 
-**为什么必须做 GWAS/群体基因组。** 当问题是“自然群体中哪些遗传变异塑造性状或演化历史”，转录组和表观组都不够。需要直接观察群体遗传变异、LD、群体结构和选择信号。
+**我选的案例。** Atwell et al. 2010, *Nature* 是 Arabidopsis GWAS 经典；Huang et al. 2012, *Nature* 是水稻群体基因组与驯化经典。前者最适合学习“植物自然群体里如何做 GWAS”，后者适合学习“GWAS/群体变异如何回答驯化与选择”。
 
-**结果如何变成生物学结论。** Huang 等人在 Nature 2012 对 446 份野生稻和 1,083 份栽培稻构建变异图谱，识别驯化选择扫荡，并推断粳稻与籼稻的演化关系。这个案例不是只给 SNP 列表，而是把遗传变异、地理来源、选择信号和性状映射连成一个驯化模型。
+**为什么必须做 GWAS/群体基因组。** 当问题是“自然变异中哪些等位基因塑造性状”，转录组只能给状态，不能给遗传原因。GWAS 直接利用自然群体中的 recombination history 和 LD，把 phenotype variation 映射到 genotype variation。植物尤其适合，因为自交、地方适应、驯化和广泛自然 accessions 提供了丰富的遗传结构。
 
-**这个案例教什么。** GWAS/群体基因组可以解决“哪些遗传区域影响性状”“驯化选择作用在哪里”“群体起源和迁移路径如何”。但关联区域不等于因果基因，仍需要精细定位、表达证据、突变体或转基因验证。
+**原理如何支撑结论。** Atwell 对 107 个 Arabidopsis 表型做 genome-wide association，把每个 SNP 作为 fixed effect，同时面对两个核心统计问题：LD 决定定位分辨率，population structure 决定假阳性风险。它的教育价值在于：很多性状可以找到接近已知生物学基因的峰，但许多峰也受样本量、群体结构和小效应限制。Huang 的水稻研究进一步用大规模 SNP 图谱、群体分化和选择扫荡，把关联位点放回驯化历史。
 
-**参考。** Huang et al. 2012. *Nature*. https://www.nature.com/articles/nature11532
+**结果解决了什么生物学问题。** Arabidopsis 案例回答“自然变异中哪些 loci 影响开花、形态、抗性等性状”；水稻案例回答“驯化选择作用在哪些区域、籼粳关系和野生祖先如何解释”。这两类问题都不是 DEG list 能解决的，因为它们关心的是遗传变异对表型的长期贡献。
+
+**结论边界。** GWAS peak 不是因果突变，最近基因不是因果基因；植物强群体结构和环境适应会制造假阳性；多倍体或高度自交物种还会让模型更复杂。强结论需要 fine mapping、候选基因表达、突变体、互补实验或 near-isogenic lines。今天重做应加入 pangenome graph、SV、环境 GWAS、multi-omics QTL 和混合模型/regenie 类算法。
+
+**参考。** Atwell et al. 2010. *Nature*. https://www.nature.com/articles/nature08800；Huang et al. 2012. *Nature*. https://www.nature.com/articles/nature11532
 
 </div>

@@ -6,9 +6,9 @@
 
 - 当前 wave：Wave 2
 - 当前组学/概念组：`03-bulk-RNAseq`
-- 已完成：章首结构、文献候选清单、板块 A 第 1 篇
+- 已完成：章首结构、文献候选清单、CNS / 高影响默认三篇选择、板块 A 第 1 篇
 - 当前组 quiz：待生成
-- 下一步：等待 Peter 从 [[03-bulk-RNAseq/_papers/00-candidates]] 勾选 3 篇文献；同时继续板块 A 第二篇 [[03-bulk-RNAseq/5-prime-capping-and-meaning]]
+- 下一步：继续板块 A 第二篇 [[03-bulk-RNAseq/5-prime-capping-and-meaning]]；后续按已选择的 3 篇写板块 E 文献深读
 
 ## 完成记录
 
@@ -32,6 +32,10 @@
   - [[03-bulk-RNAseq/_papers/00-candidates]]
 - 2026-05-03：完成 `03-bulk-RNAseq` 板块 A 第 1 篇：
   - [[03-bulk-RNAseq/transcription-pol2-mechanics]]
+- 2026-05-03：Peter 授权 Codex 选择 CNS / 高影响文献后，更新全部网页组学章节的案例深读，并为 `03-bulk-RNAseq` 标记默认三篇：
+  - Mortazavi et al. 2008, *Nature Methods*
+  - Pickrell et al. 2010, *Nature*
+  - Love et al. 2014, *Genome Biology*
 
 ## Wave 完成情况
 

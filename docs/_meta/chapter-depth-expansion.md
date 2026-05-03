@@ -50,7 +50,7 @@ Codex 后续写作时必须先读 `docs/_meta/this-task.md`，再读本文件。
 - 生物学突破：用该组学揭示根本生物学机制。
 - 方法学反思：被后续研究质疑、修正或暴露局限，最有教育意义。
 
-硬约束：Codex 先生成 `_papers/00-candidates.md`，列 5-8 篇候选；等 Peter 勾选 3 篇后再写深读正文。
+硬约束：Codex 先生成 `_papers/00-candidates.md`，列 5-8 篇候选。默认等 Peter 勾选 3 篇；若 Peter 明确授权 Codex 代选，则 Codex 直接按教学价值选出 3 篇并标记。
 
 ## 文献深读 atomic note 模板
 
@@ -97,12 +97,11 @@ Codex 后续写作时必须先读 `docs/_meta/this-task.md`，再读本文件。
 每启动一个组学时：
 
 1. 生成 `00-chapter.md`，包含五大板块结构和笔记链接。
-2. 生成 `_papers/00-candidates.md`，列 5-8 篇候选论文，等待 Peter 勾选 3 篇。
+2. 生成 `_papers/00-candidates.md`，列 5-8 篇候选论文；默认等待 Peter 勾选，若已授权则由 Codex 直接选择 3 篇。
 3. 先写板块 A 生物学篇。
 4. 再写板块 B + C 技术与分析篇。
 5. 再写板块 D 生物学解读篇。
-6. 等 Peter 确认文献后写板块 E 的 3 篇深读。
+6. 等 Peter 确认或授权 Codex 选择后，写板块 E 的 3 篇深读。
 7. 最后写章节 quiz。
 
 每个组学完成 = 章首文档 + 30-50 篇 atomic notes + 3 篇文献深读 + 1 份 quiz。
-
