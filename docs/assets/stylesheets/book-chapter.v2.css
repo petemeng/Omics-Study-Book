@@ -389,6 +389,40 @@
   color: var(--color-primary);
 }
 
+.md-typeset .source-figure {
+  margin: 1.6rem 0 1.8rem;
+  padding: 0.9rem;
+  background: #fff;
+  border: 1px solid #e2ded4;
+  border-radius: 6px;
+  box-shadow: 0 8px 22px rgba(50, 45, 35, 0.06);
+}
+
+.md-typeset .source-figure img {
+  display: block;
+  width: 100%;
+  max-height: 440px;
+  object-fit: contain;
+  margin: 0 auto 0.8rem;
+  background: #fff;
+}
+
+.md-typeset .source-figure figcaption {
+  font-family: var(--font-sans);
+  font-size: 0.64rem;
+  line-height: 1.5;
+  color: var(--color-text-light);
+  text-align: left;
+}
+
+.md-typeset .source-figure figcaption strong {
+  color: var(--color-primary);
+}
+
+.md-typeset .source-figure figcaption a {
+  color: var(--color-accent);
+}
+
 .md-typeset .questions-list {
   list-style: none;
   padding: 0;

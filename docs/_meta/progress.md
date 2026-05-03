@@ -50,6 +50,8 @@
   - [[08-ATAC/_papers/corces-2018-science-cancer-atac]]
   - [[09-methylation/_papers/lister-2008-cell-arabidopsis-methylome]]
   - [[09-methylation/_papers/lister-2009-nature-human-methylome]]
+- 2026-05-03：补强主章节中的生物学解释层，新增 RNA 生命周期、单细胞类型/状态/命运、空间 niche、染色质调控潜能、甲基化维护与 RdDM、免疫组库选择历史、微生物生态装配、复杂性状遗传架构、蛋白活性与代谢通量等内容。
+- 2026-05-04：开始替换“纯文字逻辑图”风格，为核心章节加入真实图源：RNA 加工、scRNA-seq workflow、空间转录组、核小体结构、DNA 甲基化、V(D)J 重排、根际、GWAS Manhattan plot、LC-MS/MS，并在写作约定中加入开放许可图源规范。
 
 ## Wave 完成情况
 
