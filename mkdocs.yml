@@ -41,6 +41,7 @@ markdown_extensions:
 
 extra_css:
   - assets/stylesheets/book-chapter.v2.css
+  - medical-bridge/assets/stylesheets/medical-bridge.css
 
 extra_javascript:
   - assets/javascripts/chapter-toc.v2.js
@@ -68,6 +69,31 @@ nav:
   - Part 5 多组学整合:
       - ch13 蛋白质组与代谢组: part5-多组学整合/ch13-蛋白质组与代谢组.md
       - ch14 多组学整合与研究路线图: part5-多组学整合/ch14-多组学整合与研究路线图.md
+  - 医学转化桥接:
+      - 总览: medical-bridge/index.md
+      - L1 临床素养:
+          - Map of Content: medical-bridge/L1-clinical-literacy/00-MOC.md
+          - PICO 临床问题: medical-bridge/L1-clinical-literacy/pico-clinical-question.md
+          - OS/PFS/ORR/DOR 终点: medical-bridge/L1-clinical-literacy/oncology-endpoints-os-pfs-orr-dor.md
+          - RECIST 与 iRECIST: medical-bridge/L1-clinical-literacy/recist-irecist-response.md
+          - KM/Cox/Forest Plot: medical-bridge/L1-clinical-literacy/km-cox-forest-plot-reading.md
+          - 研究设计速判: medical-bridge/L1-clinical-literacy/clinical-study-designs-rct-single-arm-real-world.md
+      - L2 人类分子细胞:
+          - Map of Content: medical-bridge/L2-human-molecular-cell-biology/00-MOC.md
+          - PI3K-AKT-mTOR: medical-bridge/L2-human-molecular-cell-biology/_pathways/pi3k-akt-mtor-core-map.md
+      - L3 疾病机制:
+          - Map of Content: medical-bridge/L3-disease-mechanisms/00-MOC.md
+      - L4 疾病×组学:
+          - Map of Content: medical-bridge/L4-disease-omics-crossovers/00-MOC.md
+          - 肿瘤 × scRNA-seq: medical-bridge/L4-disease-omics-crossovers/tumor/tumor-scrnaseq-playbook.md
+      - L5 课题设计:
+          - Map of Content: medical-bridge/L5-study-design-playbook/00-MOC.md
+      - Capstones: medical-bridge/_capstones/00-capstone-map.md
+      - Meta:
+          - Progress: medical-bridge/_meta/progress.md
+          - Task Spec: medical-bridge/_meta/this-task.md
+          - Blueprint: medical-bridge/_meta/peter-medical-translation-blueprint.md
+          - Figure Policy: medical-bridge/_meta/figure-policy.md
   - 方法学 Vault:
       - Map of Content: _concepts/00-MOC.md
       - 计数数据为什么用负二项: _concepts/poisson-vs-negative-binomial.md

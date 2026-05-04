@@ -1,0 +1,76 @@
+:root {
+  --mb-primary: #71324a;
+  --mb-accent: #25736b;
+  --mb-soft: #f8f6f1;
+  --mb-border: #ded8cc;
+}
+
+.md-typeset {
+  line-height: 1.75;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  color: var(--mb-primary);
+}
+
+.md-typeset blockquote {
+  border-left-color: var(--mb-accent);
+  color: #4b4b4b;
+}
+
+.md-typeset .bridge-box,
+.md-typeset .term-box,
+.md-typeset .clinical-box,
+.md-typeset .figure-reading,
+.md-typeset .source-figure {
+  margin: 1.2rem 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--mb-border);
+  border-left: 4px solid var(--mb-accent);
+  border-radius: 0 6px 6px 0;
+  background: var(--mb-soft);
+}
+
+.md-typeset .term-box {
+  background: #f7fbfb;
+}
+
+.md-typeset .clinical-box {
+  background: #fffaf0;
+  border-left-color: #b77d18;
+}
+
+.md-typeset .figure-reading {
+  background: #f7fbfb;
+}
+
+.md-typeset .source-figure {
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(50, 45, 35, 0.06);
+}
+
+.md-typeset .source-figure img {
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  margin: 0 auto 0.75rem;
+  background: #fff;
+}
+
+.md-typeset .source-figure figcaption,
+.md-typeset .figure-reading {
+  font-size: 0.72rem;
+}
+
+.md-typeset .gene {
+  font-family: var(--md-code-font-family);
+  font-style: italic;
+}
+
+.md-typeset .decision-table td,
+.md-typeset .decision-table th {
+  vertical-align: top;
+}
+
